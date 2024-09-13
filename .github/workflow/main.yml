@@ -16,3 +16,7 @@ jobs:
         run: npm run build
       - name: Deploy
         uses:   
+ vercel/vercel-action@v3
+        with:
+          org: https://vercel.com/jovian-chandra-santosos-projects/vercel/AAhgxCZQdBgvk3siML1Eq612PxDz
+          project: vercel
