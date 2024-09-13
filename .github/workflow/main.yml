@@ -16,8 +16,3 @@ jobs:
         run: npm run build
       - name: Deploy
         uses:   
- vercel/vercel-action@v3
-        with:
-          token: ${{ secrets.VERCEL_TOKEN }}
-          org: your-vercel-org
-          project: your-vercel-project
